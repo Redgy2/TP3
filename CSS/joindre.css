@@ -1,0 +1,63 @@
+main {
+  margin-top: 180px;
+  color: yellow;
+  font-size: 30px;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: purple;
+  border: 2px black solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarl {
+  display: inline;
+}
+
+.navbar:hover {
+  background-color: yellow;
+}
+
+a:hover {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  padding: 46px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 4%;
+}
+
+.join {
+  display: flexbox;
+  text-align: center;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+.jin {
+  width: 20%;
+}

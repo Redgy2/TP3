@@ -1,0 +1,86 @@
+nav {
+  background-color: red;
+  border: 2px yellow solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarl {
+  display: inline;
+}
+
+.navbar:hover {
+  background-color: purple;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  padding: 46px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 4%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+}
+
+.right {
+  display: flexbox;
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.login {
+  width: 80%;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+
+#utilisateur {
+  width: 30%;
+}
+
+#mdp {
+  width: 30%;
+}
+
+button {
+  color: blue;
+}
+
+footer {
+  background-color: chartreuse;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border: 2px yellow solid;
+}

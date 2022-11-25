@@ -1,0 +1,76 @@
+main {
+  margin-top: 180px;
+  color: yellow;
+}
+
+body {
+  background-image: url(../Images/bd.png);
+  background-size: cover;
+}
+
+nav {
+  background-color: purple;
+  border: 2px black solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarl {
+  display: inline;
+}
+
+.navbar:hover {
+  background-color: yellow;
+}
+
+a:hover {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  padding: 46px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 4%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 58px;
+  border-bottom: 5px solid red;
+}
+
+.videoo {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+.table {
+  background-color: white;
+  margin-left: 470px;
+  margin-right: 470px;
+  color: black;
+}

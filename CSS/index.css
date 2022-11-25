@@ -1,0 +1,94 @@
+body {
+  background-image: url(../Images/SHONEN_JUMP.jpg);
+  background-size: cover;
+  margin-top: 100px;
+}
+
+nav {
+  background-color: red;
+  border: 2px yellow solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarl {
+  display: inline;
+}
+
+.navbar:hover {
+  background-color: purple;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  padding: 46px;
+  color: white;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 4%;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.left {
+  display: flexbox;
+  justify-content: center;
+  width: 30%;
+  background-color: gray;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.right {
+  display: flexbox;
+  justify-content: center;
+  width: 30%;
+  background-color: grey;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+.hoodie {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.stream {
+  width: 50%;
+  height: 220px;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+footer {
+  background-color: chartreuse;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

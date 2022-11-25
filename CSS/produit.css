@@ -1,0 +1,162 @@
+main {
+  margin-top: 150px;
+}
+
+nav {
+  background-color: yellow;
+  border: 2px red solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbarl {
+  display: inline;
+}
+
+.navbar:hover {
+  background-color: purple;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  padding: 46px;
+  color: black;
+}
+
+.logo {
+  float: left;
+  margin-bottom: 20px;
+  width: 4%;
+}
+
+.horizon {
+  width: 100%;
+  padding: 0;
+  display: flexbox;
+}
+
+.un {
+  width: 33%;
+  display: table-cell;
+  padding-left: 130px;
+}
+
+.deux {
+  width: 33%;
+  display: table-cell;
+  padding-left: 130px;
+}
+
+.trois {
+  width: 33%;
+  display: table-cell;
+  padding-left: 130px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dbz {
+  width: 48%;
+  border-radius: 70%;
+  transition: box-shadow 0.3s;
+  margin-left: -20px;
+}
+
+.dbz:hover {
+  box-shadow: 0 0 0 3px black;
+}
+
+.tshirt {
+  width: 48%;
+  border-radius: 70%;
+  transition: box-shadow 0.3s;
+  margin-left: -20px;
+}
+
+.tshirt:hover {
+  box-shadow: 0 0 0 3px black;
+}
+
+.mha {
+  width: 35%;
+  border-radius: 70%;
+  transition: box-shadow 0.3s;
+  margin-left: 20px;
+}
+
+.mha:hover {
+  box-shadow: 0 0 0 3px black;
+}
+
+.ds {
+  width: 47%;
+  border-radius: 70%;
+  transition: box-shadow 0.3s;
+  margin-left: -20px;
+}
+
+.ds:hover {
+  box-shadow: 0 0 0 3px black;
+}
+
+.jeux1 {
+  width: 70%;
+  transition: box-shadow 0.3s;
+}
+
+.jeux1:hover {
+  box-shadow: 0 0 0 3px black;
+  border-radius: 40%;
+}
+
+.jeux2 {
+  width: 60%;
+  transition: box-shadow 0.3s;
+}
+
+.jeux2:hover {
+  box-shadow: 0 0 0 3px black;
+  border-radius: 40%;
+}
+
+.jeux3 {
+  width: 90%;
+  transition: box-shadow 0.3s;
+  margin-left: -30px;
+}
+
+.jeux3:hover {
+  box-shadow: 0 0 0 3px black;
+  border-radius: 40%;
+}
+
+.shirt {
+  list-style-type: none;
+}
+
+footer {
+  background-color: chartreuse;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border: 2px yellow solid;
+}
